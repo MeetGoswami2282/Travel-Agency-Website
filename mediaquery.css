@@ -1,0 +1,606 @@
+/* (1)   THIS IS NAVABR PART */
+
+/* Navbar Part [MOBILE] */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+    .navbar {
+        justify-content: space-around;
+    }
+
+    #signup {
+        height: 30px;
+        padding: 12px 33px;
+        border: 1px solid black;
+        border-radius: 7px;
+        position: relative;
+        left: 15px;
+    }
+
+    #mitf {
+        display: block;
+    }
+
+    .nav-menu {
+        top: 0;
+        line-height: 2;
+        width: 43%;
+        background-color: aqua;
+        display: none;
+    }
+
+    .nav-menu a {}
+
+}
+
+/* Navbar Part[TABLET] */
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+
+    .nav-menu a {
+        padding: 15px;
+    }
+}
+
+
+/* (2) THIS IS HEADER PART */
+
+
+
+/* Header Part[MOBILE] */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+    .header-description h3 {
+        color: gold;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .header-description p{
+        text-align: center;
+    }
+    .header-section {
+        display: flex;
+        width: 100%;
+    }
+    .header-description{
+        left: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    br {
+
+        display: none;
+    }
+
+    .header-description h5 {
+        text-align: center;
+        position: relative;
+        font-size: 15px;
+    }
+
+    .header-image img {
+        display: none;
+        background-color: aqua;
+    }
+    .header-image{
+        display: none;
+    }
+    .btndescription{
+        justify-content: center;
+    }
+}
+
+
+/* Header Part[TABLET] */
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+
+    .header-description h3 {
+
+        font-weight: 700;
+        font-size: 20px;
+        color: #181E4B;
+        /* background-color: rebeccapurple; */
+        margin-top: 4%;
+    }
+
+    .header-image img {
+        width: 100%;
+        position: relative;
+        top: 9%;
+    }
+
+}
+
+/* (3)WE OFFER BEST SERVICE PART */
+
+
+
+/* Mbile Part */
+
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+    #best-offer-heading-with-image img {
+        display: none;
+    }
+    #best-offer-heading-with-image h1{
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .service {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .offer h1 {
+        color: forestgreen;
+    }
+
+    .offerlist {
+        margin-top: 30%;
+    }
+}
+
+/* TABLET PART */
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+
+    #best-offer-heading-with-image img {
+        display: none;
+    }
+
+    .offerlist {
+        margin-top: 18%;
+        width: 91%;
+        position: relative;
+        left: 5%;
+    }
+
+    .offer3 {
+        /* margin-top: 10%; */
+    }
+
+    .offer4 {
+        /* margin-top: 10%; */
+    }
+}
+
+
+/*(4) top destination */
+
+/* Phone Part */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+    .destination-part img{
+        left: 0px;
+    }
+    .destination-part2 img{
+        left: 0px;
+    }
+    .destination-part3 img{
+        left: 0px;
+    }
+    .destination-details{
+        left: 0px;
+    }
+
+    .destination-part2 {
+        margin-top: 40%;
+    }
+
+    .destination-part3 {
+        margin-top: 40%;
+    }
+
+    .main-destination h3 {
+        font-size: 25px;
+    }
+
+    .main-destination p {
+        margin-top: 25%;
+    }
+}
+
+/* [TABLET] */
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    .destination-part3 {
+        margin-top: 22%;
+        margin-bottom: 16%;
+    }
+    .destination-part img{
+left: 0px;
+    }
+    .destination-part2{
+        left: 0px;
+    }
+    .destination-part2 img{
+        left: 0px;
+    }
+
+    .destination-part3{
+        left: 0px;
+    }
+    .destination-details{
+        left: 0px;
+    }
+}
+
+
+
+/* easy and next part */
+
+/* mobile part */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+.easy-and-fast h3{
+    text-align: center;
+    font-size: 20px;
+    line-height: 0px;
+}
+.easy-and-fast p{
+    text-align: center;
+    line-height: 5;
+}
+.section-first{
+    width: 100%;
+}
+.all-section{
+    left: 0px;
+    margin-top: 50%;
+}
+.all-section img{
+    width: 29%;
+}
+.section-second{
+    margin-top: 52%;
+    width: 80%;
+    position: relative;
+    left: 50px;
+}
+}
+/* tablet part */
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+
+.section-first{
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 23%;
+}
+.easy-and-fast{
+    text-align: center;
+}
+.all-section{
+    left: 0px;
+}
+.all-section img{
+    width: 14%;
+}
+.section-second {
+    width: 100%;
+    margin-top: 24%
+
+}
+}
+
+/* (5T)HIS IS A TESTIMONIAL PART */
+/* Mobile Part */
+
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+
+.feedback{
+    width: 95%;
+    text-align: center;
+}
+.testimonial-slider {
+    width: 50%;
+    position: relative;
+    left: 100px;
+
+}
+
+}
+
+
+/* Tablet Part */
+@media only screen and (min-width: 750px) and (max-width: 904px) {
+
+    .testimonial {
+        margin-top: 10%;
+    }
+
+    .feedback {
+        text-align: center;
+        width: 90%;
+        margin-top: 10%;
+    }
+    .feedback h5{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #14183E;
+    }
+    
+    
+
+
+    .testimonial-slider {
+        position: relative;
+        left: 25%;
+        text-align: center;
+    }
+}
+
+/* THIS IS A SUBSCRIBE PART */
+
+/* [Mobile section] */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+
+    .subscribe-part h1 {
+
+        font-size: 24px;
+        margin-top: 11%;
+    }
+
+    .subscribe-part {
+        text-align: center;
+        background: #DFD7F9;
+        border-radius: 129px 19px 20px 20px;
+        width: 89%;
+        margin-top: 10%;
+        margin-left: 5%;
+        height: 470px;
+    }
+
+    .subscribe-part img {
+        bottom: 4%;
+        position: relative;
+        right: 7%;
+        width: 51px;
+    }
+
+    .textfield input[type=text] {
+        width: 75%;
+    }
+
+    .subscribebtn {
+        position: relative;
+        top: 10px;
+    }
+
+    .fa-envelope {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 19%;
+    }
+}
+
+
+/* [Tablet section] */
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+
+
+    .subscribe-part h1 {
+        font-size: 20px;
+
+    }
+
+    .subscribe-part img {
+        width: 6%;
+    }
+
+    .textfield input[type=text] {
+        width: 36%;
+    }
+
+    .fa-envelope {
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+
+    .subscribebtn {
+        position: relative;
+        left: 2%;
+    }
+}
+
+
+
+
+/*(6) THIS IS A FOOTER PART */
+
+/* [Mobile Part] */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+    .footer-sub-menu {
+        text-align: center;
+        left: 0;
+    }
+
+    .footer-parts {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 6%;
+        margin-bottom: 3%;
+        text-align: center
+    }
+
+    .footer-parts2 {
+        width: 300px;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .footer-parts2 h2 {
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-parts3 {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .footer-sub-menu3 {
+        font-size: 17px;
+    }
+
+    .footer-parts3 h2 {
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+
+
+    }
+
+    .footer-parts4 {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .footer-parts5 {
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .google-play-icon {
+        text-align: center;
+        position: relative;
+        left: 12%;
+    }
+}
+
+/* [tablet part] */
+
+@media only screen and (min-width: 750px) and (max-width: 904px) {
+
+
+    .footer-sub-menu p {
+        font-size: 20px;
+    }
+
+    .footer-part {
+        text-align: center;
+    }
+
+    .footer-parts3 {
+        position: relative;
+        top: 70px;
+        left: 7%;
+    }
+
+    .footer-parts4 {
+        position: relative;
+        top: 67px;
+    }
+
+    .google-play-icon {
+
+        left: 20px;
+    }
+
+    .footer-parts5 {
+        text-align: center;
+        margin-top: 25%;
+        position: relative;
+        left: 4%;
+    }
+}
+
+
+
+
+
+/* EASY TRIP PART */
+
+/* Mobile Section */
+@media screen and (min-device-width: 200px) and (max-device-width: 668px) {
+
+
+    .image-with-text{
+        margin-top: 69%;
+        margin-bottom: 43%;
+    }
+    .first{
+
+        width: 51%;
+    }
+}
+
+
+/* [Tablet section] */
+@media only screen and (min-width: 750px) and (max-width: 904px) {
+    .allpart {
+        margin-top: 40px;
+        left: 18%;
+    }
+
+    .first {
+        width: 87%;
+        margin-left: 68px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .image-with-text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 6%;
+        position: relative;
+    }
+
+    .text-with-images1 img {
+        width: 10%;
+    }
+
+    .text-with-images1 h6 {
+        position: relative;
+        left: 3%;
+        left: 2%;
+    }
+
+    .text-with-images1 span {
+        right: 20%;
+        bottom: 4px;
+        text-align: initial;
+    }
+
+    .text-with-images2 img {
+        width: 10%;
+    }
+
+    .text-with-images2 h6 {
+
+        margin-left: 24px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #5E6282;
+    }
+
+    .text-with-images2 span {
+        position: relative;
+        margin-top: 5%;
+        right: 16%;
+        text-align: initial;
+        color: #5E6282;
+    }
+
+    .text-with-images3 img {
+        width: 10%;
+    }
+
+    .text-with-images3 h6 {
+        margin-left: 20px;
+    }
+
+    .text-with-images3 span {
+
+        right: 35%;
+        text-align: initial;
+    }
+}
